@@ -1,0 +1,106 @@
+/* Color Variables */
+$primary: #44b154;
+$secondary: #F5F5F5; 
+
+
+/* Font Styles */
+$main-font: 'Nunito', sans-serif;
+
+
+/* Media Queries */
+
+
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+body {
+	color: $primary;
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Header Styles */
+
+.header {
+	background: white;
+	color: $primary;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.logo, .menu-toggle {
+	padding: 20px 0px;
+}
+
+.menu-toggle {
+	font-size: 30px;
+	text-align: right;
+
+	.fa-bars {
+		&hover {
+			cursor: pointer;
+		}
+	}
+}
+
+/* Menu Styles */
+
+.menu {
+	display: none;
+	background: $secondary;
+
+	ul {
+		display: inline-block;
+		margin-bottom: 0px;
+	}
+	li {
+		float: left;
+		list-style: none;
+		padding: 20px 20px 12px;
+		font-size: 20px;
+		margin-bottom: 0px;
+		color: $primary;
+
+		a {
+			color: $primary;
+			text-decoration: none;
+			font-weight: lighter;
+		}
+	}
+}
+/* About Styles */
+
+.about {
+	background: $primary;
+
+	.row {
+		padding: 60px 0px;
+	}
+
+	h1 {
+		text-align: center;
+		color: white;
+		font-size: 40px!important;
+		margin-top: 0px;
+	}
+}
+
+.about-text {
+	line-height: 1.6;
+	font-size: 16px;
+	color: white;
+	font-weight: lighter;
+}
+
+/* My Work Styles */
+
+.work {
+	background: $secondary;
+	.row {
+		padding: 60px 0px;
+	}
+}

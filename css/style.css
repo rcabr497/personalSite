@@ -1,0 +1,94 @@
+/* Color Variables */
+/* Font Styles */
+/* Media Queries */
+.row {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  color: #44b154;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Header Styles */
+.header {
+  background: white;
+  color: #44b154;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.logo, .menu-toggle {
+  padding: 20px 0px;
+}
+
+.menu-toggle {
+  font-size: 30px;
+  text-align: right;
+}
+
+.menu-toggle .fa-barshover {
+  cursor: pointer;
+}
+
+/* Menu Styles */
+.menu {
+  display: none;
+  background: #F5F5F5;
+}
+
+.menu ul {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  padding: 20px 20px 12px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #44b154;
+}
+
+.menu li a {
+  color: #44b154;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+/* About Styles */
+.about {
+  background: #44b154;
+}
+
+.about .row {
+  padding: 60px 0px;
+}
+
+.about h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px !important;
+  margin-top: 0px;
+}
+
+.about-text {
+  line-height: 1.6;
+  font-size: 16px;
+  color: white;
+  font-weight: lighter;
+}
+
+/* My Work Styles */
+.work {
+  background: #F5F5F5;
+}
+
+.work .row {
+  padding: 60px 0px;
+}
