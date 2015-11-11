@@ -85,10 +85,44 @@ body {
 }
 
 /* My Work Styles */
-.work {
-  background: #F5F5F5;
+.work-img img {
+  width: 100%;
 }
 
 .work .row {
   padding: 60px 0px;
+}
+
+/* Jinna Styles */
+.jinna {
+  background: #E9B988;
+  color: white;
+}
+
+.jinna .jinna-btn {
+  background: #965356;
+  border: none;
+}
+
+/* Undertune Styles */
+.undertune {
+  background: #384C6B;
+  color: #E6E9EB;
+}
+
+.undertune .under-btn {
+  background: #A9CC38;
+  border: none;
+  color: #384C6B;
+}
+
+/* Looking Nice Styles */
+.looking {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.looking .looking-btn {
+  background: #444;
+  border: none;
 }
