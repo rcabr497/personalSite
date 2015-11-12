@@ -89,6 +89,18 @@ body {
   font-weight: lighter;
 }
 
+/* Social Styles */
+.social {
+  background: #F5F5F5;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.social i {
+  font-size: 40px;
+  margin: 0px 20px;
+}
+
 /* My Work Styles */
 .work-img img {
   width: 100%;
