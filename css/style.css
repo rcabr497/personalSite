@@ -1,6 +1,11 @@
 /* Color Variables */
 /* Font Styles */
 /* Media Queries */
+.jinna, .looking, .undertune {
+  border: 10px solid white;
+  border-bottom: none;
+}
+
 .row {
   max-width: 960px;
   margin: 0 auto;

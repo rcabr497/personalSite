@@ -9,6 +9,10 @@ $main-font: 'Nunito', sans-serif;
 
 /* Media Queries */
 
+.jinna, .looking, .undertune {
+	border: 10px solid white;
+	border-bottom: none;
+}
 
 .row {
 	max-width: 960px;
