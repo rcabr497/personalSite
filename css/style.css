@@ -82,6 +82,12 @@ body {
   font-size: 16px;
   color: white;
   font-weight: lighter;
+  text-align: center;
+}
+
+.skill-div {
+  text-align: center;
+  margin: 10px 0px;
 }
 
 /* Social Styles */
@@ -94,6 +100,10 @@ body {
 .social i {
   font-size: 40px;
   margin: 0px 20px;
+}
+
+.social a {
+  color: #44b154;
 }
 
 /* My Work Styles */
@@ -116,6 +126,18 @@ body {
   border: none;
 }
 
+.jinna .jinna-btn:hover {
+  background: #AF6A6D;
+}
+
+.jinna .jinna-btn:active {
+  background: #AF6A6D;
+}
+
+.jinna img {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+}
+
 /* Undertune Styles */
 .undertune {
   background: #384C6B;
@@ -128,6 +150,10 @@ body {
   color: #384C6B;
 }
 
+.undertune img {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+}
+
 /* Looking Nice Styles */
 .looking {
   background: #e74c3c;
@@ -137,4 +163,17 @@ body {
 .looking .looking-btn {
   background: #444;
   border: none;
+}
+
+.looking img {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+}
+
+/* Contact Styles */
+.contact {
+  padding: 60px 0px;
+}
+
+.contact h1 {
+  text-align: center;
 }
