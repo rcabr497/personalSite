@@ -18,6 +18,7 @@
 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -27,7 +28,7 @@
 
     <div class="container header">
         <div class="row">
-            <div class="logo">RC.</div>
+            <div class="logo">Ricky Cabrera</div>
             <div class="menu-toggle"><i class="fa fa-bars"></i></div>
         </div>
     </div>
@@ -52,22 +53,17 @@
             </div>
         </div>
     </div>
-    <div class="container social">
-        <div class="row">
-            <div class="twelve columns icons"><a href="https://github.com/rcabr497" target="_blank;"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/ricky-cabrera-348b72a7" target="_blank;"><i class="fa fa-linkedin"></i></a><a href="mailto:info@rickycabrera.com" target="_blank;"><i class="fa fa-envelope"></i></a></div>
-        </div>
-    </div>
 
     <!-- Start Jinna -->
     <div class="container work jinna">
         <div class="row">
-            <div class="six columns work-desc">
+            <div class="six columns work-desc wow fadeInLeft">
                 <h1>Jinna Cabrera</h1>
                 <p>Elagant portfolio where client can show off her modeling shots</p>
                 <p>Built using the blankslate wordpress theme</p>
                 <a class="button button-primary jinna-btn" href="http://jinnacabrera.com/" target="_blank">Visit Project</a>
             </div>
-            <div class="six columns work-img">
+            <div class="six columns work-img wow fadeInRight">
                 <img src='img/jinna.png' data-adaptive-background>
             </div>
         </div>
@@ -76,14 +72,14 @@
     <!-- Start Undertune -->
     <div class="container work undertune">
         <div class="row">
-            <div class="six columns work-desc">
+            <div class="six columns work-img  wow fadeInLeft">
+                <img src='img/undertune.png' data-adaptive-background>
+            </div>
+            <div class="six columns work-desc wow fadeInRight">
                 <h1>Undertune.in</h1>
                 <p>A small webapp that allows users the ability to listen to random songs based on the genre they choose. </p>
                 <p>Built using Laravel 4 and the Soundcloud API</p>
                 <a class="button button-primary under-btn" href="http://undertune.in/" target="_blank">Visit Project</a>
-            </div>
-            <div class="six columns work-img">
-                <img src='img/undertune.png' data-adaptive-background>
             </div>
         </div>
     </div>
@@ -91,27 +87,33 @@
     <!-- Start Looking Nice -->
     <div class="container work looking">
         <div class="row">
-            <div class="six columns work-desc">
+            <div class="six columns work-desc  wow fadeInLeft">
                 <h1>Looking Nice</h1>
                 <p>Salon & Spa located in Brooklyn,NY.</p>
                 <p>Built using the Underscores theme from Automattic</p>
                 <a class="button button-primary looking-btn" href="http://lookingnicesalon.com/" target="_blank">Visit Project</a>
             </div>
-            <div class="six columns work-img">
+            <div class="six columns work-img wow fadeInRight">
                 <img src='img/lookingnice.png' data-adaptive-background>
             </div>
         </div>
     </div>
 
-    <div class="container contact">
+    <div class="container social">
         <div class="row">
-            <h1>Contact Me</h1>
+            <div class="twelve columns icons"><a href="https://github.com/rcabr497" target="_blank;"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/ricky-cabrera-348b72a7" target="_blank;"><i class="fa fa-linkedin"></i></a><a href="mailto:info@rickycabrera.com" target="_blank;"><i class="fa fa-envelope"></i></a></div>
         </div>
     </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/wow.min.js"></script>
+
+         <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
         <script type="text/javascript" src="js/jquery.adaptive-backgrounds.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){

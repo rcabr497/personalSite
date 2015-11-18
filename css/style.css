@@ -1,35 +1,24 @@
 /* Color Variables */
 /* Font Styles */
-.row {
-  max-width: 960px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 body {
   color: #44b154;
   font-family: 'Nunito', sans-serif;
+  font-size: 15px;
 }
 
-@media (min-width: 400px) {
-  p {
-    margin-bottom: 10px;
-  }
-  body {
-    font-size: 15px;
-  }
-  .container {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .work-desc h1 {
-    margin-top: 0px;
-  }
-  .jinna, .undertune, .looking {
-    text-align: center;
-  }
+p {
+  margin-bottom: 10px;
+}
+
+.six.columns {
+  width: 50%;
+  margin: 0px;
+}
+
+.row {
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Header Styles */
@@ -53,7 +42,7 @@ body {
 }
 
 .logo, .menu-toggle {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .menu-toggle {
@@ -96,7 +85,9 @@ body {
 
 /* About Styles */
 .about {
-  background: #44b154;
+  height: calc(100vh - 84px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-bg.jpg);
+  background-size: cover;
 }
 
 .about .row {
@@ -104,10 +95,12 @@ body {
 }
 
 .about h1 {
+  margin-top: 60px !important;
   text-align: center;
   color: white;
-  font-size: 40px !important;
+  font-size: 50px !important;
   margin-top: 0px;
+  text-transform: uppercase;
 }
 
 .about-text {
@@ -140,8 +133,25 @@ body {
 }
 
 /* My Work Styles */
+.work-desc {
+  text-align: left;
+  padding: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .work-desc {
+    width: 100% !important;
+  }
+}
+
 .work-img img {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .work-img {
+    display: none;
+  }
 }
 
 .work .row {
@@ -152,6 +162,12 @@ body {
 .jinna {
   background: #E9B988;
   color: white;
+}
+
+.jinna .row {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px !important;
 }
 
 .jinna .jinna-btn {
@@ -169,12 +185,46 @@ body {
 
 .jinna img {
   box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .jinna .work-desc {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jinna {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/jinna.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .undertune {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/undertune.png);
+    background-size: cover;
+    background-position: center;
+    background-color: none;
+  }
+  .looking {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/lookingnice.png);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent !important;
+  }
 }
 
 /* Undertune Styles */
 .undertune {
   background: #384C6B;
   color: #E6E9EB;
+}
+
+.undertune .row {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px !important;
 }
 
 .undertune .under-btn {
@@ -185,12 +235,19 @@ body {
 
 .undertune img {
   box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+  object-fit: cover;
 }
 
 /* Looking Nice Styles */
 .looking {
   background: #e74c3c;
   color: #fff;
+}
+
+.looking .row {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px !important;
 }
 
 .looking .looking-btn {
@@ -200,6 +257,7 @@ body {
 
 .looking img {
   box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
+  object-fit: cover;
 }
 
 /* Contact Styles */
@@ -209,4 +267,10 @@ body {
 
 .contact h1 {
   text-align: center;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 100%;
+  }
 }
