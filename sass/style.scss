@@ -102,13 +102,15 @@ p {
 
 .about {
 	height: calc(100vh - 84px);	
-	background: 
+	/*background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/home-bg.jpg);
+    url(../img/home-bg.jpg);*/
 	background-size: cover;
+	background: $primary;
+	background-color: rgba(68,177,84,1);
 
 	.row {
 		padding: 60px 0px;
@@ -121,6 +123,10 @@ p {
 		font-size: 50px!important;
 		margin-top: 0px;
 		text-transform: uppercase;
+	}
+
+	.arrow-down {
+		font-size: 100px;
 	}
 }
 
@@ -207,7 +213,6 @@ p {
 		}
 	}
 	img {
-		box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
 		object-fit:cover;
 	}
 
@@ -273,8 +278,11 @@ p {
 		color: #384C6B;
 	}
 	img {
-		box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
 		object-fit:cover;
+	}
+
+	.work-desc {
+		text-align:right;
 	}
 }
 
@@ -295,7 +303,6 @@ p {
 		border:none;
 	}
 	img {
-		box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
 		object-fit:cover;
 	}
 }

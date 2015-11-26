@@ -86,8 +86,15 @@ p {
 /* About Styles */
 .about {
   height: calc(100vh - 84px);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-bg.jpg);
+  /*background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/home-bg.jpg);*/
   background-size: cover;
+  background: #44b154;
+  background-color: #44b154;
 }
 
 .about .row {
@@ -101,6 +108,10 @@ p {
   font-size: 50px !important;
   margin-top: 0px;
   text-transform: uppercase;
+}
+
+.about .arrow-down {
+  font-size: 100px;
 }
 
 .about-text {
@@ -184,7 +195,6 @@ p {
 }
 
 .jinna img {
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
   object-fit: cover;
 }
 
@@ -234,8 +244,11 @@ p {
 }
 
 .undertune img {
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
   object-fit: cover;
+}
+
+.undertune .work-desc {
+  text-align: right;
 }
 
 /* Looking Nice Styles */
@@ -256,7 +269,6 @@ p {
 }
 
 .looking img {
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.38);
   object-fit: cover;
 }
 
