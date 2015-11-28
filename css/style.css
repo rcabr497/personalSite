@@ -85,15 +85,6 @@ p {
 
 /* About Styles */
 .about {
-  height: calc(100vh - 84px);
-  /*background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../img/home-bg.jpg);*/
-  background-size: cover;
-  background: #44b154;
   background-color: #44b154;
 }
 
