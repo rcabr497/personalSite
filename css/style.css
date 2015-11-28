@@ -85,11 +85,14 @@ p {
 
 /* About Styles */
 .about {
+  height: 100vh;
   background-color: #44b154;
+  padding: 10px solid white;
 }
 
 .about .row {
   padding: 60px 0px;
+  max-width: 700px;
 }
 
 .about h1 {
@@ -101,8 +104,20 @@ p {
   text-transform: uppercase;
 }
 
-.about .arrow-down {
-  font-size: 100px;
+.about .down-arrow {
+  max-width: 40px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  opacity: .5;
+  position: absolute;
+  bottom: 40px;
+}
+
+.about .down-arrow:hover {
+  max-width: 60px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  opacity: .7;
 }
 
 .about-text {

@@ -101,10 +101,13 @@ p {
 /* About Styles */
 
 .about {
+	height:100vh;
 	background-color: rgba(68,177,84,1);
+	padding: 10px solid white;
 
 	.row {
 		padding: 60px 0px;
+		max-width: 700px;
 	}
 
 	h1 {
@@ -116,8 +119,20 @@ p {
 		text-transform: uppercase;
 	}
 
-	.arrow-down {
-		font-size: 100px;
+	.down-arrow {
+		max-width: 40px;
+		transition: all .2s ease;
+		-webkit-transition: all .2s ease;
+		opacity: .5;
+		position: absolute;
+		bottom: 40px;
+
+		&:hover {
+			max-width:60px;
+			transition: all .2s ease;
+			-webkit-transition: all .2s ease;
+			opacity: .7;
+		}
 	}
 }
 
